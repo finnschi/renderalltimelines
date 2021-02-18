@@ -3,6 +3,11 @@ This scipt will render All Timelines in your Project
 It is for MacOS and Windows only, it was made for MacOS Catalina and verified to be working for 17b9 and the latest 16 version of resolve.
 Please let me know if it doesnt work on your machine.
 
+Demo Video
+https://youtu.be/VAQv15XWPrE
+
+
+
 Windows version was added description below:
 
 
