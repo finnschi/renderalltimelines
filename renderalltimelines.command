@@ -1,4 +1,4 @@
-#!/bin/bash
+rte#!/bin/bash
 ##written by Finn Jager 2021
 ##resolveStartupscript to set Environment to hook into the API  for MacOS only
 export PYTHONPATH="/Library/Application Support/Blackmagic Design/DaVinci Resolve/Developer/Scripting/Modules/:/Library/Application Support/Blackmagic Design/DaVinci Resolve/Developer/Scripting/Examples/"
