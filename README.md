@@ -23,17 +23,15 @@ useage:
 1. Start Resolve Studio and open a project
 2. make sure scripting is set to "external scripting using Local or Network" under preferences/General
 3. create a renderpreset, make sure a output location is set, remeber to use "timeline name" or some unique token per timeline in the filename or it will overwrite itself
-4. doubleclick renderalltimelines.sh
+4. doubleclick renderalltimelines.command
 5. enter the preset name and press enter
 6. watch resolve go vroooom
 
-If you cant doubleclick the renderalltimelines.sh file , it means the script does not have permissions to be excuted, you can fix this easily:
+If you cant doubleclick the renderalltimelines.command file , it means the script does not have permissions to be excuted, you can fix this easily:
 
 in a terminal type:
 
-chmod 775 /location/to/the/script/renderalltimelines.sh
-
-replace /location/to/the/script/ with the actual location of the script. 
+chmod 775 and then drag the file into the terminal and press enter
 
 WINDOWS:
 
