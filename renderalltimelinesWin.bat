@@ -5,9 +5,8 @@ set RESOLVE_SCRIPT_API=%PROGRAMDATA%\\Blackmagic Design\\DaVinci Resolve\\Suppor
 set RESOLVE_SCRIPT_LIB=C:\\Program Files\\Blackmagic Design\\DaVinci Resolve\\fusionscript.dll
 set PYTHONPATH=%RESOLVE_SCRIPT_API%\\Modules\\;%RESOLVE_SCRIPT_API%\\Examples\\
 
-set /p ans=Enter the name of the Render Preset:
-echo
-echo %ans%
+powershell -Command "& {Add-Type -AssemblyName Microsoft.VisualBasic; [Microsoft.VisualBasic.Interaction]::InputBox('Enter the name of the Render Preset:', 'Right here')}" > %TEMP%\out.tmp
+set /p OUT=<%TEMP%\out.tmp
 
-python %~dp0/renderalltimelines2.py %ans%
+python %~dp0/renderalltimelines2.py %OUT%
 
